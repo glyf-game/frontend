@@ -1,0 +1,16 @@
+.board {
+  display: grid;
+  gap: 1px;
+  background: black;
+  width: 600px;
+  aspect-ratio: 1 / 1;
+}
+
+.cell {
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
