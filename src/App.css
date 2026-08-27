@@ -1,6 +1,14 @@
 .app {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
   padding: 20px;
   background: white;
+}
+
+.rack-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }

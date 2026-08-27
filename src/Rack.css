@@ -1,0 +1,16 @@
+.rack {
+  display: flex;
+  gap: 4px;
+}
+
+.tile {
+  width: 40px;
+  height: 40px;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
